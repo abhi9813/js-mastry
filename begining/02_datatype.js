@@ -3,7 +3,7 @@
 // console.log( 3+4); console.log("Welcome to JavaScript"); isnot readable
 
 let name = "Darku"
-let age = 20;
+let age = "20";
 let isStudent = true;
 let marks = null; //null is a special value that represents no value
 let address; //undefined is a special value that represents no value
@@ -34,3 +34,5 @@ console.log(typeof true); //boolean
 console.log(typeof null); //object (this is a bug in JavaScript)
 console.log(typeof undefined); //undefined
 console.log(typeof hobbies); //object (array is a special type of object) 
+console.log(typeof person); //object
+console.log(typeof Number(age));
